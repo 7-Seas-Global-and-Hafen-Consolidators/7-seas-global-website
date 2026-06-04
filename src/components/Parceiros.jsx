@@ -1,9 +1,8 @@
 import { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 
-
 const PARTNERS = [
-  { src: '/assets/img/partner-bifa.png', alt: 'BIFA — British International Freight Association' },
+  { src: '/assets/img/partner-bifa.png', alt: 'BIFA' },
   { src: '/assets/img/partner-azfreight.png', alt: 'AZFreight' },
   { src: '/assets/img/partner-emirates.png', alt: 'Emirates SkyCargo' },
   { src: '/assets/img/partner-cma.png', alt: 'CMA CMG' },
@@ -17,13 +16,12 @@ const PARTNERS = [
   { src: '/assets/img/partner-msc.jpeg', alt: 'MSC' },
   { src: '/assets/img/partner-wca.jpeg', alt: 'WCA World' },
   { src: '/assets/img/partner-saudia.jpeg', alt: 'Saudia Cargo' },
-
 ];
 
 export default function Parceiros() {
   const { t } = useTranslation();
   const n = PARTNERS.length;
-  const mid = Math.floor(n / 2);
+
   const [center, setCenter] = useState(Math.min(1, n - 1));
   const startX = useRef(null);
 
@@ -42,9 +40,15 @@ export default function Parceiros() {
     startX.current = null;
   };
 
+  // 🌟 NOVO: Mantém o HTML leve e alinhado, renderizando sempre 5 imagens 
+  // (2 na esquerda oculta/parcial, 1 no centro, 2 na direita oculta/parcial)
+  const visibleCount = 5;
+  const midRender = Math.floor(visibleCount / 2); // Resulta em 2
+
   const ordered = [];
-  for (let off = -mid; off <= n - 1 - mid; off++) {
-    ordered.push((center + off + n) % n);
+  for (let off = -midRender; off <= midRender; off++) {
+    const origIdx = (((center + off) % n) + n) % n;
+    ordered.push({ origIdx, off });
   }
 
   return (
@@ -74,12 +78,12 @@ export default function Parceiros() {
           </button>
           <div className="carousel__viewport">
             <ul className="carousel__track">
-              {ordered.map((origIdx, k) => {
+              {ordered.map(({ origIdx, off }) => {
                 const p = PARTNERS[origIdx];
                 return (
                   <li
-                    key={origIdx}
-                    className={`partner${k === mid ? ' is-active' : ''}`}
+                    key={`${origIdx}-${off}`}
+                    className={`partner${off === 0 ? ' is-active' : ''}`}
                   >
                     <img src={p.src} alt={p.alt} loading="lazy" decoding="async" />
                   </li>

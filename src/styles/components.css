@@ -335,6 +335,7 @@
 .carousel__track { 
   display: flex; 
   align-items: center; 
+  justify-content: center;
   transition: transform var(--dur) var(--ease); 
 }
 
