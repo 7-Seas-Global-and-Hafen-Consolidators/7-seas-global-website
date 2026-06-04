@@ -6,6 +6,18 @@ const PARTNERS = [
   { src: '/assets/img/partner-bifa.png', alt: 'BIFA — British International Freight Association' },
   { src: '/assets/img/partner-azfreight.png', alt: 'AZFreight' },
   { src: '/assets/img/partner-emirates.png', alt: 'Emirates SkyCargo' },
+  { src: '/assets/img/partner-cma.jpge', alt: 'CMA CMG' },
+  { src: '/assets/img/partner-eurail.jpeg', alt: 'Eurail' },
+  { src: '/assets/img/partner-evergreen.jpge', alt: 'Evergreen' },
+  { src: '/assets/img/partner-fiata.jpeg', alt: 'Fiata' },
+  { src: '/assets/img/partner-gla.jpeg', alt: 'GLA' },
+  { src: '/assets/img/partner-iata.jpeg', alt: 'IATA' },
+  { src: '/assets/img/partner-latam-cargo.jpeg', alt: 'Latam Cargo' },
+  { src: '/assets/img/partner-lufthansa.jpeg', alt: 'Lufthansa Cargo' },
+  { src: '/assets/img/partner-msc.jpeg', alt: 'MSC' },
+  { src: '/assets/img/partner-wca.jpeg', alt: 'WCA World' },
+  { src: '/assets/img/partner-saudia.jpeg', alt: 'Saudia Cargo' },
+
 ];
 
 export default function Parceiros() {
