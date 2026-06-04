@@ -1,0 +1,80 @@
+{
+  "translation": {
+    "nav": {
+      "inicio": "Home",
+      "sobre": "About us",
+      "servicos": "Services",
+      "porque": "Why us?",
+      "parceiros": "Partners",
+      "contato": "Contact"
+    },
+    "hero": {
+      "title_strong": "global",
+      "title_rest": "without borders",
+      "lead": "Our true differentiator is the ability to establish physical and operational presence in complex locations and routes neglected by the competition.",
+      "cta": "Learn More"
+    },
+    "sobre": {
+      "title_a": "With over 15 years of solid experience",
+      "text_a": "In the Liechtenstein market, 7 Seas Global operates as an international freight forwarder, NVOCC, and trading company, connecting continents through intelligent multimodal transport solutions.",
+      "title_b": "Our great differentiator",
+      "text_b_1": "Is our active physical and operational presence where competition hesitates: we structure ",
+      "text_b_2": " collection and delivery in complex regions and overlooked areas of the map."
+    },
+    "servicos": {
+      "title": "Services",
+      "s1_title": "International freight forwarding",
+      "s1_text": "Complete and integrated end-to-end cargo transportation management.",
+      "s2_title": "NVOCC Services",
+      "s2_text": "Issuance of own documentation (House BL) and autonomous consolidation of cargo, guaranteeing complete independence from traditional shipping lines.",
+      "s3_title": "Ocean freight",
+      "s3_text": "Global maritime transport focusing on route optimization and intelligent vessel space utilization.",
+      "s4_title": "Air freight",
+      "s4_text": "Agile and urgent transport solutions for corporate demands requiring reduced delivery times (lead time).",
+      "s5_title": "Road freight",
+      "s5_text": "Fully integrated national road transport network and dedicated solutions for cargo movement within the Mercosur bloc.",
+      "s6_title": "Mercosur logistical solutions",
+      "s6_text": "Highly specialized cross-border logistics operations in trade flows between South American bloc member countries.",
+      "s7_title": "Multimodal transport",
+      "s7_text": "Physical, operational, and documentary integration of multiple modes (maritime, rail, and road) under a single simplified management.",
+      "s8_title": "International trade",
+      "s8_text": "Commercial intelligence with business intermediation, supplier sourcing, feasibility analysis, and strategic connection between global markets.",
+      "s9_title": "Cross-border business support",
+      "s9_text": "Comprehensive customs advisory, rigorous documentary support, and security guarantee in customs clearance."
+    },
+    "porque": {
+      "title": "Where others hesitate, we are already present",
+      "lead_1": "We are not a traditional logistics company that just waits for cargo to arrive at major hubs like São Paulo or Santos. Our differentiator is the ",
+      "lead_2": ": a real and robust operational network that covers the market's most challenging and forgotten regions.",
+      "r1_title": "The Far North:",
+      "r2_title": "South Coast to Southeast:",
+      "r3_title": "Midwest to Southeast:"
+    },
+    "parceiros": {
+      "title": "Partners"
+    },
+    "contato": {
+      "title": "Contact",
+      "label_nome": "Name",
+      "place_nome": "your full name...",
+      "label_tel": "Phone / Email",
+      "place_tel": "your.email@example.com",
+      "label_msg": "Message",
+      "place_msg": "write your message here...",
+      "btn_send": "Send Message",
+      "status_error": "Please fill out all fields.",
+      "status_success": "Direct transmission under configuration — please use footer channels."
+    },
+    "footer": {
+      "tagline_1": "We do not just enter markets. We establish a presence where others hesitate. Undiscovered. Unannounced. ",
+      "tagline_2": "Remembered.",
+      "nav_head": "Navigation",
+      "contact_head": "Contact",
+      "rec_head": "Recruitment",
+      "social_head": "Networks",
+      "phone_1": "phone 1",
+      "phone_2": "phone 2",
+      "copy": "© 2026 7 Seas Global. All rights reserved."
+    }
+  }
+}

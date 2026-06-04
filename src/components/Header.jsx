@@ -1,8 +1,12 @@
-import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
 
-  const [activeLang, setActiveLang] = useState('PT');
+  const { i18n } = useTranslation();
+  const activeLang = i18n.language.toUpperCase();
+  const handleLangChange = (lang) => {
+    i18n.changeLanguage(lang.toLowerCase());
+  };
 
   return (
     <header className="header" id="header">
@@ -23,31 +27,24 @@ export default function Header() {
             <li><a className="nav__link" href="#parceiros">Parceiros</a></li>
             <li><a className="nav__link" href="#contato">Contato</a></li>
             <div className="ling">
-              {/* <li><button className="nav__link" type="button" aria-label="Idioma">PT</button></li>
-              <li><button className="nav__link" type="button" aria-label="Idioma">EN</button></li>
-              <li><button className="nav__link" type="button" aria-label="Idioma">ESP</button></li> */}
               <div className="lang-switch" role="radiogroup" aria-label="Seletor de idioma">
-        {/* O "slide" que corre por trás criando o preenchimento escuro */}
                 <div className={`lang-switch__slider is-${activeLang.toLowerCase()}`} aria-hidden="true"></div>
                   <button 
                     className={`lang-switch__btn ${activeLang === 'PT' ? 'is-active' : ''}`}
                     type="button" 
-                    onClick={() => setActiveLang('PT')}
-                  >
+                    onClick={() => handleLangChange('PT')}>
                     PT
                   </button>
                   <button 
                     className={`lang-switch__btn ${activeLang === 'EN' ? 'is-active' : ''}`}
                     type="button" 
-                    onClick={() => setActiveLang('EN')}
-                  >
+                    onClick={() => handleLangChange('EN')}>
                     EN
                   </button>
                   <button 
                     className={`lang-switch__btn ${activeLang === 'ESP' ? 'is-active' : ''}`}
                     type="button" 
-                    onClick={() => setActiveLang('ESP')}
-                  >
+                    onClick={() => handleLangChange('ESP')} >
                     ESP
                   </button>
                 </div>

@@ -158,12 +158,12 @@
   margin-top: var(--sp-10);
 }
 
-.container {
+/* .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .card {
   width: 45vh;
@@ -369,6 +369,10 @@
     flex-direction: column-reverse;
     gap: 0px;
     font-size: 20px;
+  }
+
+  .btn--block {
+    width: 100%;
   }
 
   .footer__cols {

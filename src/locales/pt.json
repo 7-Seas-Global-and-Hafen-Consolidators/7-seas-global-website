@@ -1,0 +1,80 @@
+{
+  "translation": {
+    "nav": {
+      "inicio": "Início",
+      "sobre": "Sobre nós",
+      "servicos": "Serviços",
+      "porque": "Por que nós?",
+      "parceiros": "Parceiros",
+      "contato": "Contato"
+    },
+    "hero": {
+      "title_strong": "global",
+      "title_rest": "sem fronteiras",
+      "lead": "Nosso verdadeiro diferencial é a capacidade de estabelecer presença física e operacional em locais complexos e rotas negligenciadas pela concorrência.",
+      "cta": "Saiba Mais"
+    },
+    "sobre": {
+      "title_a": "Com mais de 15 anos de sólida experiência",
+      "text_a": "No mercado de Liechtenstein, a 7 Seas Global atua como agente de carga internacional, NVOCC e trading, conectando continentes através de soluções inteligentes de transporte multimodal.",
+      "title_b": "Nosso grande diferencial",
+      "text_b_1": "É a presença física e operacional ativa onde a concorrência hesita: estruturamos coletas e entregas ",
+      "text_b_2": " em regiões complexas e rotas negligenciadas do mapa."
+    },
+    "servicos": {
+      "title": "Serviços",
+      "s1_title": "Agenciamento de carga internacional",
+      "s1_text": "Gestão completa e integrada do transporte de mercadorias de ponta a ponta.",
+      "s2_title": "Serviços NVOCC",
+      "s2_text": "Emissão de documentação própria (House BL) e consolidação autônoma de cargas, garantindo total independência das linhas marítimas tradicionais.",
+      "s3_title": "Frete marítimo",
+      "s3_text": "Transporte marítimo global com foco na otimização de rotas e aproveitamento inteligente de espaços nos navios.",
+      "s4_title": "Frete aéreo",
+      "s4_text": "Soluções ágeis e urgentes de transporte para demandas corporativas que exigem um tempo de entrega reduzido (lead time).",
+      "s5_title": "Transporte rodoviário",
+      "s5_text": "Malha de transporte rodoviário nacional totalmente integrada e soluções dedicadas para movimentação de cargas no bloco do Mercosul.",
+      "s6_title": "Soluções logísticas do Mercosul",
+      "s6_text": "Operações de logística transfronteiriça altamente especializadas no fluxo comercial entre os países membros do bloco sul-americano.",
+      "s7_title": "Transporte multimodal",
+      "s7_text": "Integração física, operacional e documental de múltiplos modais (marítimo, ferroviário e rodoviário) sob uma única gestão simplificada.",
+      "s8_title": "Comércio internacional",
+      "s8_text": "Inteligência comercial com intermediação de negócios, identificação (sourcing) de fornecedores, análise de viabilidade e conexão estratégica entre mercados globais.",
+      "s9_title": "Apoio a negócios transfronteiriços",
+      "s9_text": "Assessoria aduaneira completa, suporte documental rigoroso e garantia de segurança na liberação alfandegária."
+    },
+    "porque": {
+      "title": "Onde os outros hesitam, nós já estamos presente",
+      "lead_1": "Não somos uma empresa de logística tradicional que apenas espera a carga chegar aos grandes centros como São Paulo ou Santos. Nosso diferencial é o ",
+      "lead_2": ": uma rede operacional real e robusta que cobre as regiões mais desafiadoras e esquecidas pelo mercado.",
+      "r1_title": "O extremo Norte:",
+      "r2_title": "Litoral Sul ao Sudeste:",
+      "r3_title": "Centro-oeste ao Sudeste:"
+    },
+    "parceiros": {
+      "title": "Parceiros"
+    },
+    "contato": {
+      "title": "Contato",
+      "label_nome": "Nome",
+      "place_nome": "seu nome completo...",
+      "label_tel": "Telefone",
+      "place_tel": "seu.email@exemplo.com",
+      "label_msg": "Mensagem",
+      "place_msg": "escreva sua mensagem aqui...",
+      "btn_send": "Enviar Mensagem",
+      "status_error": "Por favor, preencha todos os campos.",
+      "status_success": "Envio direto em configuração — por favor utilize os canais do rodapé."
+    },
+    "footer": {
+      "tagline_1": "Não entramos em mercados. Estabelecemos presença onde os outros hesitam. Não descobertos. Não anunciados. ",
+      "tagline_2": "Lembrados.",
+      "nav_head": "Navegação",
+      "contact_head": "Contato",
+      "rec_head": "Recrutamento",
+      "social_head": "Redes",
+      "phone_1": "telefone 1",
+      "phone_2": "telefone 2",
+      "copy": "© 2026 7 Seas Global. Todos os direitos reservados."
+    }
+  }
+}

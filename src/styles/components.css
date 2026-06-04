@@ -139,6 +139,21 @@
   transition: var(--dur-fast); 
 }
 
+.hero { 
+  position: relative; 
+  min-height: 768px; 
+  display: flex; 
+  align-items: center; 
+}
+
+.hero__inner { 
+  position: relative; 
+  z-index: 1; 
+  max-width: 1400px; 
+  width: 100%;
+  text-align: left; /* 🌟 ADICIONE ESTA LINHA: Garante o alinhamento à esquerda no desktop */
+}
+
 .btn {
   display: inline-flex; 
   align-items: center; 
@@ -168,7 +183,7 @@
 }
 
 .btn--block {
-  width: 100%; 
+  width: 40%; 
   padding: 22px; 
   border-radius: var(--radius-sm); 
   border: none;
@@ -405,6 +420,10 @@
 }
 
 .form { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: var(--sp-8); 
 }
 
