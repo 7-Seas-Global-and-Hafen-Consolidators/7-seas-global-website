@@ -1,4 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 export default function Sobre() {
+
+  const { t } = useTranslation();
+
   return (
     <section className="section sobre" id="sobre" aria-label="Sobre nós">
       <img
@@ -12,21 +17,17 @@ export default function Sobre() {
       <div className="container sobre__grid">
         <div className="sobre__block sobre__block--a reveal">
           <h2 className="sobre__title">
-            Com mais de 15 anos de sólida experiência
+            {t("sobre.title_a")}
           </h2>
           <p>
-            No mercado de Liechtenstein, a 7 Seas Global atua como agente de
-            carga internacional, NVOCC e trading, conectando continentes através
-            de soluções inteligentes de transporte multimodal.
+            {t("sobre.text_a")}
           </p>
         </div>
         <div className="sobre__block sobre__block--b reveal">
-          <h2 className="sobre__title">Nosso grande diferencial</h2>
+          <h2 className="sobre__title">{t("sobre.title_b")}</h2>
           <p>
-            É a presença física e operacional ativa onde a concorrência hesita:
-            estruturamos coletas e entregas{" "}
-            <strong className="text-gold">last-mile</strong> em regiões
-            complexas e rotas negligenciadas do mapa.
+            {t("sobre.text_b_1")}{" "}
+            <strong className="text-gold">last-mile</strong> {t("sobre.text_b_2")}
           </p>
         </div>
       </div>

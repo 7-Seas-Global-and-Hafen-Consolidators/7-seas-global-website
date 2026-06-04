@@ -1,103 +1,95 @@
+import { useTranslation } from "react-i18next";
+
 export default function Servicos() {
+
+  const { t } = useTranslation();
+
   return (
     <section className="section servicos" id="servicos" aria-label="Serviços">
       <div className="container">
         <h2 className="section-title section-title--grad">
-          Serviços<span className="section-title__rule"></span>
+          {t("servicos.title")}<span className="section-title__rule"></span>
         </h2>
         <ul className="services-grid">
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="globe"></span>
             </span>
-            <h3 className="card__title">Agenciamento de carga internacional</h3>
+            <h3 className="card__title">{t("servicos.s1_title")}</h3>
             <p className="card__text">
-              Gestão completa e integrada do transporte de mercadorias de ponta
-              a ponta.
+              {t("servicos.s1_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="shipment"></span>
             </span>
-            <h3 className="card__title">Serviços NVOCC</h3>
+            <h3 className="card__title">{t("servicos.s2_title")}</h3>
             <p className="card__text">
-              Emissão de documentação própria (House BL) e consolidação autônoma
-              de cargas, garantindo total independência das linhas marítimas
-              tradicionais.
+              {t("servicos.s2_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="ship"></span>
             </span>
-            <h3 className="card__title">Frete marítimo</h3>
+            <h3 className="card__title">{t("servicos.s3_title")}</h3>
             <p className="card__text">
-              Transporte marítimo global com foco na otimização de rotas e
-              aproveitamento inteligente de espaços nos navios.
+              {t("servicos.s3_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="airplane"></span>
             </span>
-            <h3 className="card__title">Frete aéreo</h3>
+            <h3 className="card__title">{t("servicos.s4_title")}</h3>
             <p className="card__text">
-              Soluções ágeis e urgentes de transporte para demandas corporativas
-              que exigem um tempo de entrega reduzido (lead time).
+              {t("servicos.s4_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="truck"></span>
             </span>
-            <h3 className="card__title">Transporte rodoviário</h3>
+            <h3 className="card__title">{t("servicos.s5_title")}</h3>
             <p className="card__text">
-              Malha de transporte rodoviário nacional totalmente integrada e
-              soluções dedicadas para movimentação de cargas no bloco do
-              Mercosul.
+              {t("servicos.s5_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="brazil"></span>
             </span>
-            <h3 className="card__title">Soluções logísticas do Mercosul</h3>
+            <h3 className="card__title">{t("servicos.s6_title")}</h3>
             <p className="card__text">
-              Operações de logística transfronteiriça altamente especializadas
-              no fluxo comercial entre os países membros do bloco sul-americano.
+              {t("servicos.s6_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="multimodal"></span>
             </span>
-            <h3 className="card__title">Transporte multimodal</h3>
+            <h3 className="card__title">{t("servicos.s7_title")}</h3>
             <p className="card__text">
-              Integração física, operacional e documental de múltiplos modais
-              (marítimo, ferroviário e rodoviário) sob uma única gestão
-              simplificada.
+              {t("servicos.s7_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="airplane-2"></span>
             </span>
-            <h3 className="card__title">Comércio internacional</h3>
+            <h3 className="card__title">{t("servicos.s8_title")}</h3>
             <p className="card__text">
-              Inteligência comercial com intermediação de negócios,
-              identificação (sourcing) de fornecedores, análise de viabilidade e
-              conexão estratégica entre mercados globais.
+              {t("servicos.s8_text")}
             </p>
           </li>
           <li className="card reveal">
             <span className="card__icon">
               <span className="icon-mask" data-icon="support"></span>
             </span>
-            <h3 className="card__title">Apoio a negócios transfronteiriços</h3>
+            <h3 className="card__title">{t("servicos.s9_title")}</h3>
             <p className="card__text">
-              Assessoria aduaneira completa, suporte documental rigoroso e
-              garantia de segurança na liberação alfandegária.
+              {t("servicos.s9_text")}
             </p>
           </li>
         </ul>

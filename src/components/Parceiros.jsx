@@ -1,4 +1,6 @@
 import { useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 const PARTNERS = [
   { src: '/assets/img/partner-bifa.png', alt: 'BIFA — British International Freight Association' },
@@ -7,6 +9,7 @@ const PARTNERS = [
 ];
 
 export default function Parceiros() {
+  const { t } = useTranslation();
   const n = PARTNERS.length;
   const mid = Math.floor(n / 2);
   const [center, setCenter] = useState(Math.min(1, n - 1));
@@ -36,7 +39,7 @@ export default function Parceiros() {
     <section className="section parceiros" id="parceiros" aria-label="Parceiros">
       <div className="container">
         <h2 className="section-title section-title--grad">
-          Parceiros<span className="section-title__rule"></span>
+          {t("parceiros.title")}<span className="section-title__rule"></span>
         </h2>
         <div
           className="carousel"

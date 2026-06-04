@@ -9,7 +9,8 @@
       "contato": "Contacto"
     },
     "hero": {
-      "title_strong": "global",
+      "title_strong": "Reenvío",
+      "title_light": "global",
       "title_rest": "sin fronteras",
       "lead": "Nuestro verdadero diferencial es la capacidad de establecer presencia física y operativa en lugares complejos y rutas desatendidas por la competencia.",
       "cta": "Saber Más"
@@ -69,6 +70,11 @@
       "tagline_1": "No entramos en mercados. Establecemos presencia donde otros dudan. No descubiertos. No anunciados. ",
       "tagline_2": "Recordados.",
       "nav_head": "Navegación",
+      "nav_1": "Sobre nosotros",
+      "nav_2": "Servicios",
+      "nav_3": "¿Por qué nosotros?",
+      "nav_4": "Socios",
+      "nav_5": "Contacto",
       "contact_head": "Contacto",
       "rec_head": "Reclutamiento",
       "social_head": "Redes",

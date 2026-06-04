@@ -1,13 +1,18 @@
+import { useTranslation } from "react-i18next";
+
 export default function Porque() {
+  
+  const { t } = useTranslation();
+
   return (
     <section className="section porque" id="porque" aria-label="Por que nós">
       <div className="container">
         <div className="grid-panel reveal">
-          <h2 className="grid-panel__title">Onde os outros hesitam, nós já estamos presente</h2>
-          <p className="grid-panel__lead">Não somos uma empresa de logística tradicional que apenas espera a carga chegar aos grandes centros como São Paulo ou Santos. Nosso diferencial é o <strong className="text-gold">Deep Market Grid</strong>: uma rede operacional real e robusta que cobre as regiões mais desafiadoras e esquecidas pelo mercado.</p>
+          <h2 className="grid-panel__title">{t("porque.title")}</h2>
+          <p className="grid-panel__lead">{t("porque.lead_1")} <strong className="text-gold">Deep Market Grid</strong>{t("porque.lead_2")}</p>
 
           <div className="region reveal">
-            <h3 className="region__title">O extremo Norte:</h3>
+            <h3 className="region__title">{t("porque.r1_title")}</h3>
             <div className="region__route">
               <span className="pin" style={{ '--x': '11%', '--y': '62%' }}><span className="pin__dot"></span>Roraima</span>
               <span className="pin" style={{ '--x': '45%', '--y': '15%' }}><span className="pin__dot"></span>Amapá</span>
@@ -17,7 +22,7 @@ export default function Porque() {
           </div>
 
           <div className="region reveal">
-            <h3 className="region__title">Litoral Sul ao Sudeste:</h3>
+            <h3 className="region__title">{t("porque.r2_title")}</h3>
             <div className="region__route">
               <span className="pin" style={{ '--x': '12%', '--y': '50%' }}><span className="pin__dot"></span>Navegantes</span>
               <span className="pin" style={{ '--x': '45%', '--y': '50%' }}><span className="pin__dot"></span>Porto Alegre</span>
@@ -27,7 +32,7 @@ export default function Porque() {
           </div>
 
           <div className="region reveal">
-            <h3 className="region__title">Centro-oeste ao Sudeste:</h3>
+            <h3 className="region__title">{t("porque.r3_title")}</h3>
             <div className="region__route">
               <span className="pin pin--stack" style={{ '--x': '14%', '--y': '34%' }}><span className="pin__dot"></span>Oeste do Paraná</span>
               <span className="pin" style={{ '--x': '80%', '--y': '34%' }}><span className="pin__dot"></span>Cuiabá</span>

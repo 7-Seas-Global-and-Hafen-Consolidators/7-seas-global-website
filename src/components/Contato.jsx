@@ -1,6 +1,8 @@
 import { useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function Contato() {
+  const { t } = useTranslation();
   const formRef = useRef(null)
   const [statusText, setStatusText] = useState('')
   const [statusColor, setStatusColor] = useState('')
@@ -26,21 +28,21 @@ export default function Contato() {
   return (
     <section className="section contato" id="contato" aria-label="Contato">
       <div className="container container--narrow">
-        <h2 className="section-title section-title--grad">Contato<span className="section-title__rule"></span></h2>
+        <h2 className="section-title section-title--grad">{t("contato.title")}<span className="section-title__rule"></span></h2>
         <form className="form" noValidate ref={formRef} onSubmit={handleSubmit}>
           <div className="field">
-            <label className="field__label" htmlFor="f-nome">Nome</label>
-            <input className="field__input" id="f-nome" name="nome" type="text" placeholder="seu nome completo..." required />
+            <label className="field__label" htmlFor="f-nome">{t("contato.label_nome")}</label>
+            <input className="field__input" id="f-nome" name="nome" type="text" placeholder={t("contato.label_nome")} required />
           </div>
           <div className="field">
-            <label className="field__label" htmlFor="f-tel">Telefone</label>
-            <input className="field__input" id="f-tel" name="telefone" type="text" placeholder="seu.email@exemplo.com" required />
+            <label className="field__label" htmlFor="f-tel">{t("contato.label_tel")}</label>
+            <input className="field__input" id="f-tel" name="telefone" type="text" placeholder={t("contato.place_tel")} required />
           </div>
           <div className="field">
-            <label className="field__label" htmlFor="f-msg">Mensagem</label>
-            <textarea className="field__input field__input--area" id="f-msg" name="mensagem" rows="5" placeholder="escreva sua mensagem aqui..." required></textarea>
+            <label className="field__label" htmlFor="f-msg">{t("contato.label_msg")}</label>
+            <textarea className="field__input field__input--area" id="f-msg" name="mensagem" rows="5" placeholder={t("contato.place_nome")} required></textarea>
           </div>
-          <button className="btn btn--block" type="submit">Enviar Mensagem</button>
+          <button className="btn btn--block" type="submit">{t("contato.btn_send")}</button>
           <p className="form__status" role="status" aria-live="polite" style={{ color: statusColor }}>{statusText}</p>
         </form>
       </div>

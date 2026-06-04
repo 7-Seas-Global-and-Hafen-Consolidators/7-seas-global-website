@@ -9,7 +9,8 @@
       "contato": "Contact"
     },
     "hero": {
-      "title_strong": "global",
+      "title_strong": "forwarding",
+      "title_light": "Global",
       "title_rest": "without borders",
       "lead": "Our true differentiator is the ability to establish physical and operational presence in complex locations and routes neglected by the competition.",
       "cta": "Learn More"
@@ -69,6 +70,11 @@
       "tagline_1": "We do not just enter markets. We establish a presence where others hesitate. Undiscovered. Unannounced. ",
       "tagline_2": "Remembered.",
       "nav_head": "Navigation",
+      "nav_1": "About Us",
+      "nav_2": "Services",
+      "nav_3": "Why Us?",
+      "nav_4": "Partners",
+      "nav_5": "Contact",
       "contact_head": "Contact",
       "rec_head": "Recruitment",
       "social_head": "Networks",
