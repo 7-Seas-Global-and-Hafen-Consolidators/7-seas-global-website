@@ -260,6 +260,11 @@
     --sp-16: 80px;
   }
 
+  .header__inner {
+    padding: 8%;
+    gap: 10vh;
+  }
+
   .nav__list,
   .lang {
     display: none;
@@ -280,6 +285,7 @@
     padding: var(--sp-4);
     gap: var(--sp-2);
     border-bottom: var(--border-hairline);
+    border-top: var(--border-hairline);
   }
 
   .nav.is-open .lang {
@@ -391,6 +397,7 @@
   .pin {
     font-size: 12px;
   }
+
 }
 
 @media (max-width: 460px) {
@@ -402,7 +409,6 @@
   }
 }
 
-/* ---------- Carrossel de parceiros Responsivo ---------- */
 .carousel {
   position: relative;
   margin-top: var(--sp-6);
@@ -425,14 +431,13 @@
   width: 100%;
 }
 
-/* Mobile por padrão: o slide ocupa 100% da largura da tela */
 .partner {
   flex: 0 0 100%;
   display: grid;
   place-items: center;
   padding: 0 var(--sp-2);
 }
-/* Telas médias (Tablets): exibe 2 itens por vez */
+
 @media (min-width: 600px) {
   .partner {
     flex: 0 0 50%;
@@ -531,3 +536,55 @@
   background: var(--c-gold);
   transform: scale(1.15);
 }
+
+@media (max-width: 768px) {
+
+  .nav.is-open .nav__link::before {
+    display: none !important;
+  }
+
+  .nav.is-open .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+  }
+
+  .nav.is-open .nav__list > li {
+    width: 100%;
+    border-bottom: 1px solid var(--c-gold-muted);
+  }
+
+  .nav.is-open .ling {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  .nav.is-open .ling li {
+    border-bottom: none !important;
+  }
+
+  .nav.is-open .nav__link {
+    display: block;
+    width: 100%;
+    padding: var(--sp-3) var(--sp-4);
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .nav.is-open .ling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: var(--sp-5);
+    border-bottom: none !important;
+  }
+}
+
