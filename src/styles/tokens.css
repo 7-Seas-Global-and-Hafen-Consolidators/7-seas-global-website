@@ -1,0 +1,91 @@
+/* tokens.css — fonte única da verdade (ver docs/02-DESIGN-TOKENS.md)
+   Design monocromático dourado-sobre-preto. Todo texto sobre escuro é dourado/âmbar. */
+:root {
+  /* Cores — fundos */
+  --c-bg: #1a1a1a;
+  --c-bg-deep: #0d0d0d;
+  --c-bg-card: #1a1a1a;
+  --c-bg-elevated: #1c1c1c;
+  --c-header: #0d0d0d;
+
+  /* Cores — dourado (gradiente oficial da marca, do Figma: ECDBB7 -> DFB45C -> 704F0C) */
+  --c-gold: #dfb45c;
+  --c-gold-bright: #e5c789;
+  --c-gold-deep: #704f0c;
+  --c-gold-solid: #b8944c; /* dourado sólido secundário p/ detalhes/divisores */
+  --c-gold-muted: #9c8044;
+
+  /* Cores — texto (tudo dourado/âmbar; níveis ajustados p/ contraste WCAG AA) */
+  --c-text: #ebdbb6; /* âmbar pálido: labels, nav, rótulos */
+  --c-text-body: #ebc97a; /* corpo / parágrafos (>= 4.5:1 sobre #1A1A1A) */
+  --c-text-dim: #c6b690; 
+
+  /* Cores — formulário / claros */
+  --c-input-bg: #d8d8d8;
+  --c-input-text: #3a3a3a;
+  --c-input-placeholder: #656565;
+  --c-white: #f8f8f8;
+
+  /* Linhas / overlays */
+  --c-hairline: rgba(223, 179, 91, 0.25);
+  --c-overlay: rgba(8, 12, 16, 0.72);
+
+  /* Gradiente dourado de marca (stops exatos do Figma) — bordas e detalhes */
+  --grad-gold: linear-gradient(180deg, #ecdbb7 0%, #dfb45c 50%, #704f0c 100%);
+  /* Gradiente p/ TEXTO: base mais clara (#C99A3F) p/ o marrom não "sujar" as letras */
+  --grad-gold-text: linear-gradient(
+    180deg,
+    #ecdbb7 0%,
+    #e3c27a 52%,
+    #c99a3f 100%
+  );
+  /* Preenchimento dourado de botões (mais claro/uniforme, sem o marrom escuro) */
+  --grad-gold-btn: linear-gradient(
+    180deg,
+    #ecc878 0%,
+    #dfb45c 60%,
+    #c99a3f 100%
+  );
+
+  /* Tipografia */
+  --font-display: "Cinzel", "Trajan Pro", serif;
+  --font-body: "Cormorant Garamond", "EB Garamond", serif;
+
+  --fs-hero: 72px;
+  --fs-section: 48px;
+  --fs-h3: 30px;
+  --fs-card-title: 22px;
+  --fs-lead: 20px;
+  --fs-body: 17px;
+  --fs-label: 15px;
+  --fs-small: 13px;
+
+  /* Espaçamento (base 8) */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 16px;
+  --sp-4: 24px;
+  --sp-5: 32px;
+  --sp-6: 48px;
+  --sp-8: 64px;
+  --sp-10: 80px;
+  --sp-12: 96px;
+  --sp-16: 128px;
+
+  /* Layout */
+  --container: 1280px;
+
+  /* Raios / bordas / sombras */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --border-hairline: 1px solid var(--c-hairline);
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.45);
+  --shadow-gold: 0 4px 24px rgba(223, 179, 91, 0.18);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur: 320ms;
+}
