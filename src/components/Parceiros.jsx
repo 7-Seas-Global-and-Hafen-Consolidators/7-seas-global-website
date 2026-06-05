@@ -40,10 +40,8 @@ export default function Parceiros() {
     startX.current = null;
   };
 
-  // 🌟 NOVO: Mantém o HTML leve e alinhado, renderizando sempre 5 imagens 
-  // (2 na esquerda oculta/parcial, 1 no centro, 2 na direita oculta/parcial)
   const visibleCount = 5;
-  const midRender = Math.floor(visibleCount / 2); // Resulta em 2
+  const midRender = Math.floor(visibleCount / 2);
 
   const ordered = [];
   for (let off = -midRender; off <= midRender; off++) {

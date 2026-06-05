@@ -30,11 +30,11 @@ export default function Footer() {
           <div className="footer__col">
             <h4 className="footer__head">{t("footer.contact_head")}</h4>
             <ul className="footer__contact">
-              <li><span className="icon-mask icon-mask--sm" data-icon="email"></span><a href="#">e-mail {/* TODO-CONTATO */}</a></li>
-              <li><span className="icon-mask icon-mask--sm" data-icon="whatsapp"></span><a href="#">whatsapp</a></li>
-              <li><span className="icon-mask icon-mask--sm" data-icon="telegram"></span><a href="#">telegram</a></li>
-              <li><span className="icon-mask icon-mask--sm" data-icon="phone"></span><a href="#">telefone 1</a></li>
-              <li><span className="icon-mask icon-mask--sm" data-icon="phone"></span><a href="#">telefone 2</a></li>
+              <li><span className="icon-mask icon-mask--sm" data-icon="email"></span><a href="">e-mail {/* TODO-CONTATO */}</a></li>
+              <li><span className="icon-mask icon-mask--sm" data-icon="whatsapp"></span><a href="https://w.app/josrfi">whatsapp</a></li>
+              <li><span className="icon-mask icon-mask--sm" data-icon="telegram"></span><a href="tg://resolve?domain=guiropasystems&text=Olá,+estou+interessado+em+seus+serviços!">telegram</a></li>
+              <li><span className="icon-mask icon-mask--sm" data-icon="phone"></span>+55 51 3027-4785</li>
+              <li><span className="icon-mask icon-mask--sm" data-icon="phone"></span>+55 45 2021-0022</li>
             </ul>
           </div>
           <div className="footer__col">
