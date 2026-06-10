@@ -58,7 +58,7 @@
       "title": "Contato",
       "label_nome": "Nome",
       "place_nome": "seu nome completo...",
-      "label_tel": "Telefone",
+      "label_tel": "Telefone / E-mail",
       "place_tel": "seu.email@exemplo.com",
       "label_msg": "Mensagem",
       "place_msg": "escreva sua mensagem aqui...",

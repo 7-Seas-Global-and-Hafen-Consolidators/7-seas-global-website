@@ -36,7 +36,7 @@ export default function Contato() {
           </div>
           <div className="field">
             <label className="field__label" htmlFor="f-tel">{t("contato.label_tel")}</label>
-            <input className="field__input" id="f-tel" name="telefone" type="text" placeholder={t("contato.place_tel")} required />
+            <input className="field__input" id="f-tel" name="e-mail" type="text" placeholder={t("contato.place_tel")} required />
           </div>
           <div className="field">
             <label className="field__label" htmlFor="f-msg">{t("contato.label_msg")}</label>

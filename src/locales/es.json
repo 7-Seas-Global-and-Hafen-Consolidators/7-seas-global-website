@@ -58,7 +58,7 @@
       "title": "Contacto",
       "label_nome": "Nombre",
       "place_nome": "su nombre completo...",
-      "label_tel": "Teléfono",
+      "label_tel": "Teléfono / E-mail",
       "place_tel": "su.email@ejemplo.com",
       "label_msg": "Mensaje",
       "place_msg": "escriba su mensaje aquí...",
