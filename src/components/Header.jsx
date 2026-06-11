@@ -21,12 +21,12 @@ export default function Header() {
         </a>
         <nav className="nav" aria-label="Navegação principal">
           <ul className="nav__list">
-            <li><a className="nav__link" href="#hero">{t('nav.inicio')}</a></li>
-            <li><a className="nav__link" href="#sobre">{t('nav.sobre')}</a></li>
-            <li><a className="nav__link" href="#servicos">{t('nav.servicos')}</a></li>
-            <li><a className="nav__link" href="#porque">{t('nav.porque')}</a></li>
-            <li><a className="nav__link" href="#parceiros">{t('nav.parceiros')}</a></li>
-            <li><a className="nav__link" href="#contato">{t('nav.contato')}</a></li>
+            <li><a className="nav__link" href="/#hero">{t('nav.inicio')}</a></li>
+            <li><a className="nav__link" href="/#sobre">{t('nav.sobre')}</a></li>
+            <li><a className="nav__link" href="/#servicos">{t('nav.servicos')}</a></li>
+            <li><a className="nav__link" href="/#porque">{t('nav.porque')}</a></li>
+            <li><a className="nav__link" href="/#parceiros">{t('nav.parceiros')}</a></li>
+            <li><a className="nav__link" href="/#contato">{t('nav.contato')}</a></li>
             <div className="ling">
               <div className="lang-switch" role="radiogroup" aria-label="Seletor de idioma">
                 <div className={`lang-switch__slider is-${activeLang.toLowerCase()}`} aria-hidden="true"></div>
