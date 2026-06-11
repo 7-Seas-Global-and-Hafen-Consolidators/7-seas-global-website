@@ -54,17 +54,21 @@
     "parceiros": {
       "title": "Socios"
     },
-    "contato": {
-      "title": "Contacto",
-      "label_nome": "Nombre",
-      "place_nome": "su nombre completo...",
-      "label_tel": "Teléfono / E-mail",
-      "place_tel": "su.email@ejemplo.com",
-      "label_msg": "Mensaje",
-      "place_msg": "escriba su mensaje aquí...",
-      "btn_send": "Enviar Mensaje",
-      "status_error": "Por favor, complete todos los campos.",
-      "status_success": "Envío directo en configuración — por favor use los canales del pie de página."
+      "contato": {
+      "title": "Contato",
+      "label_nome": "Nome",
+      "label_tel": "Telefone / E-mail",
+      "place_tel": "Seu contato",
+      "label_msg": "Mensagem",
+      "place_nome": "Escreva sua mensagem aqui...",
+      "btn_send": "Enviar",
+      "status_error_fields": "Por favor, preencha todos os campos obrigatórios.",
+      "status_error_checkbox": "Você precisa aceitar os Termos e Políticas de Privacidade.",
+      "checkbox_text_1": "Li e aceito os ",
+      "checkbox_link_terms": "termos e condições",
+      "checkbox_text_2": " e ",
+      "checkbox_link_privacy": "políticas de privacidade",
+      "modal_close": "Fechar"
     },
     "footer": {
       "tagline_1": "No entramos en mercados. Establecemos presencia donde otros dudan. No descubiertos. No anunciados. ",
@@ -97,6 +101,16 @@
       "s5_text": "Usted es libre de rechazar nuestra solicitud de información personal, entendiendo que es posible que no podamos brindarle algunos de los servicios deseados. El uso continuado de nuestro sitio web se considerará como la aceptación de nuestras prácticas en torno a la privacidad y la información personal.",
       "s6_title": "6. Contáctenos",
       "s6_text": "Si tiene alguna pregunta sobre cómo manejamos los datos del usuario y la información personal, no dude en contactarnos a través de nuestros canales oficiales."
+    },
+      "termos": {
+      "title": "Termos e Condições de Uso",
+      "intro": "Bem-vindo ao site da 7 Seas Global. Ao acessar e utilizar nossos serviços, você concorda em cumprir e estar vinculado aos seguintes termos de uso.",
+      "s1_title": "1. Aceitação dos Termos",
+      "s1_text": "Os serviços de cotação, rastreamento e informações de logística internacional prestados por este site estão sujeitos à aceitação integral destes termos. Se você não concorda com qualquer parte, não deverá utilizar nossos canais.",
+      "s2_title": "2. Precisão das Informações",
+      "s2_text": "O usuário é responsável pela veracidade e exatidão dos dados inseridos nos formulários de contato e cotação, ciente de que informações incorretas podem inviabilizar o planejamento logístico e operacional de cargas.",
+      "s3_title": "3. Alterações nos Serviços",
+      "s3_text": "A 7 Seas Global reserva-se o direito de modificar, suspender ou descontinuar qualquer aspecto do site ou de seus serviços logísticos a qualquer momento, sem aviso prévio."
     }
   }
 }

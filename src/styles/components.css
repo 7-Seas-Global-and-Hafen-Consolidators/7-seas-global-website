@@ -736,3 +736,132 @@
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+
+/* --- Checkbox de Consentimento --- */
+.field--checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-2);
+  width: 100%;
+  max-width: 600px; /* Alinha com a largura ideal de inputs */
+  margin-bottom: var(--sp-5);
+}
+
+.field__checkbox {
+  accent-color: var(--c-gold);
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.field__label-checkbox {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  color: var(--c-text-body);
+  line-height: 1.5;
+}
+
+.field__link {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-body);
+  font-size: inherit;
+  color: var(--c-gold);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+  display: inline;
+  font-weight: 600;
+  transition: filter var(--dur-fast) var(--ease);
+}
+
+.field__link:hover {
+  filter: brightness(1.2);
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: var(--sp-4);
+}
+
+.modal-card {
+  background: var(--c-bg-elevated);
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  width: 100%;
+  max-width: 640px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: var(--sp-5);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8);
+}
+
+.modal-card__title {
+  font-size: var(--fs-h3);
+  margin-bottom: var(--sp-4);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--c-hairline);
+  padding-bottom: var(--sp-2);
+}
+
+.modal-card__body {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: var(--sp-2);
+  margin-bottom: var(--sp-4);
+  text-align: left;
+}
+
+.modal-card__body h4 {
+  font-size: var(--fs-card-title);
+  color: var(--c-gold-bright);
+  margin-top: var(--sp-4);
+  margin-bottom: var(--sp-2);
+}
+
+.modal-card__body p {
+  font-size: var(--fs-body);
+  color: var(--c-text-body);
+  line-height: 1.6;
+  margin-bottom: var(--sp-3);
+}
+
+.modal-card__body::-webkit-scrollbar {
+  width: 6px;
+}
+.modal-card__body::-webkit-scrollbar-track {
+  background: var(--c-bg-deep);
+}
+.modal-card__body::-webkit-scrollbar-thumb {
+  background: var(--c-gold-muted);
+  border-radius: var(--radius-pill);
+}
+
+.btn--modal-close {
+  align-self: center;
+  padding: 12px 32px;
+  background: var(--c-bg-deep);
+  border: 1px solid var(--c-gold);
+  color: var(--c-gold);
+  font-size: var(--fs-label);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  transition: all var(--dur-fast) var(--ease);
+}
+
+.btn--modal-close:hover {
+  background: var(--grad-gold-btn);
+  color: #2a1c08;
+}

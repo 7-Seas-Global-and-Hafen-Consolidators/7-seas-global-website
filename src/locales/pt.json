@@ -54,17 +54,21 @@
     "parceiros": {
       "title": "Parceiros"
     },
-    "contato": {
+      "contato": {
       "title": "Contato",
       "label_nome": "Nome",
-      "place_nome": "seu nome completo...",
       "label_tel": "Telefone / E-mail",
-      "place_tel": "seu.email@exemplo.com",
+      "place_tel": "Seu contato",
       "label_msg": "Mensagem",
-      "place_msg": "escreva sua mensagem aqui...",
-      "btn_send": "Enviar Mensagem",
-      "status_error": "Por favor, preencha todos os campos.",
-      "status_success": "Envio direto em configuração — por favor utilize os canais do rodapé."
+      "place_nome": "Escreva sua mensagem aqui...",
+      "btn_send": "Enviar",
+      "status_error_fields": "Por favor, preencha todos os campos obrigatórios.",
+      "status_error_checkbox": "Você precisa aceitar os Termos e Políticas de Privacidade.",
+      "checkbox_text_1": "Li e aceito os ",
+      "checkbox_link_terms": "termos e condições",
+      "checkbox_text_2": " e ",
+      "checkbox_link_privacy": "políticas de privacidade",
+      "modal_close": "Fechar"
     },
     "footer": {
       "tagline_1": "Não entramos em mercados. Estabelecemos presença onde os outros hesitam. Não descobertos. Não anunciados. ",
@@ -97,6 +101,16 @@
       "s5_text": "Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados. O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais.",
       "s6_title": "6. Fale Conosco",
       "s6_text": "Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco pelos canais oficiais."
+    },
+      "termos": {
+      "title": "Termos e Condições de Uso",
+      "intro": "Bem-vindo ao site da 7 Seas Global. Ao acessar e utilizar nossos serviços, você concorda em cumprir e estar vinculado aos seguintes termos de uso.",
+      "s1_title": "1. Aceitação dos Termos",
+      "s1_text": "Os serviços de cotação, rastreamento e informações de logística internacional prestados por este site estão sujeitos à aceitação integral destes termos. Se você não concorda com qualquer parte, não deverá utilizar nossos canais.",
+      "s2_title": "2. Precisão das Informações",
+      "s2_text": "O usuário é responsável pela veracidade e exatidão dos dados inseridos nos formulários de contato e cotação, ciente de que informações incorretas podem inviabilizar o planejamento logístico e operacional de cargas.",
+      "s3_title": "3. Alterações nos Serviços",
+      "s3_text": "A 7 Seas Global reserva-se o direito de modificar, suspender ou descontinuar qualquer aspecto do site ou de seus serviços logísticos a qualquer momento, sem aviso prévio."
     }
   }
 }
