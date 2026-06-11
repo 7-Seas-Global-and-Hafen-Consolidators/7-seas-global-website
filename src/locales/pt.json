@@ -82,20 +82,21 @@
       "phone_2": "telefone 2",
       "copy": "© 2026 7 Seas Global. Todos os direitos reservados."
     },
-    "privacidade": {
+      "privacidade": {
       "title": "Política de Privacidade",
-      "intro": "A 7 Seas Global valoriza a sua privacidade. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e salvaguardamos suas informações ao visitar nosso site e utilizar nossos serviços.",
-      "s1_title": "1. Informações que Coletamos",
-      "s1_text": "Podemos coletar informações sobre você de várias maneiras. As informações que podemos coletar incluem:",
-      "s1_item1": "Dados pessoais (nome, e-mail, telefone) fornecidos voluntariamente através de nossos formulários.",
-      "s1_item2": "Dados derivados de navegação (endereço de IP, tipo de navegador, sistema operacional).",
-      "s1_item3": "Dados relacionados a cotações de logística e transporte inseridos em nossos canais de atendimento.",
-      "s2_title": "2. Uso das Suas Informações",
-      "s2_text": "A utilização de informações precisas nos permite fornecer a você uma experiência contínua, eficiente e personalizada. Especificamente, podemos usar as informações coletadas para processar transações, enviar e-mails administrativos e responder a solicitações de suporte.",
-      "s3_title": "3. Segurança dos Dados",
-      "s3_text": "Usamos medidas de segurança administrativas, técnicas e físicas para ajudar a proteger suas informações pessoais. Embora tenhamos tomado medidas razoáveis para proteger as informações que você nos fornece, saiba que nenhuma medida de segurança é perfeita ou impenetrável.",
-      "s4_title": "4. Fale Conosco",
-      "s4_text": "Se você tiver dúvidas ou comentários sobre esta Política de Privacidade, entre em contato conosco pelo e-mail:"
+      "intro": "A sua privacidade é importante para nós. É nossa política respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar neste site e outros sites que possuímos e operamos.",
+      "s1_title": "1. Coleta de Informações",
+      "s1_text": "Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. O fazemos por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.",
+      "s2_title": "2. Retenção e Segurança dos Dados",
+      "s2_text": "Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.",
+      "s3_title": "3. Compartilhamento de Informações",
+      "s3_text": "Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.",
+      "s4_title": "4. Links Externos",
+      "s4_text": "O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.",
+      "s5_title": "5. Direitos e Consentimento",
+      "s5_text": "Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados. O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais.",
+      "s6_title": "6. Fale Conosco",
+      "s6_text": "Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco pelos canais oficiais."
     }
   }
 }

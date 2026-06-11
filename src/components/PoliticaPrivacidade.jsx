@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import Header from './Header';
+import Header from '../components/Header'; 
 
 export default function PoliticaPrivacidade() {
   const { t } = useTranslation();
@@ -26,11 +26,6 @@ export default function PoliticaPrivacidade() {
 
               <h2>{t('privacidade.s1_title')}</h2>
               <p>{t('privacidade.s1_text')}</p>
-              <ul>
-                <li>{t('privacidade.s1_item1')}</li>
-                <li>{t('privacidade.s1_item2')}</li>
-                <li>{t('privacidade.s1_item3')}</li>
-              </ul>
 
               <h2>{t('privacidade.s2_title')}</h2>
               <p>{t('privacidade.s2_text')}</p>
@@ -39,12 +34,13 @@ export default function PoliticaPrivacidade() {
               <p>{t('privacidade.s3_text')}</p>
 
               <h2>{t('privacidade.s4_title')}</h2>
-              <p>
-                {t('privacidade.s4_text')}{' '}
-                <a href="mailto:privacidade@7seasglobal.com" className="text-gold fw-700">
-                  privacidade@7seasglobal.com
-                </a>.
-              </p>
+              <p>{t('privacidade.s4_text')}</p>
+
+              <h2>{t('privacidade.s5_title')}</h2>
+              <p>{t('privacidade.s5_text')}</p>
+
+              <h2>{t('privacidade.s6_title')}</h2>
+              <p>{t('privacidade.s6_text')}</p>
             </div>
           </div>
         </section>
