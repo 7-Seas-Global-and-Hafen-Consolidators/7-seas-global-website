@@ -103,14 +103,89 @@
       "s6_text": "Si tiene alguna pregunta sobre cómo manejamos los datos del usuario y la información personal, no dude en contactarnos a través de nuestros canales oficiales."
     },
       "termos": {
-      "title": "Termos e Condições de Uso",
-      "intro": "Bem-vindo ao site da 7 Seas Global. Ao acessar e utilizar nossos serviços, você concorda em cumprir e estar vinculado aos seguintes termos de uso.",
-      "s1_title": "1. Aceitação dos Termos",
-      "s1_text": "Os serviços de cotação, rastreamento e informações de logística internacional prestados por este site estão sujeitos à aceitação integral destes termos. Se você não concorda com qualquer parte, não deverá utilizar nossos canais.",
-      "s2_title": "2. Precisão das Informações",
-      "s2_text": "O usuário é responsável pela veracidade e exatidão dos dados inseridos nos formulários de contato e cotação, ciente de que informações incorretas podem inviabilizar o planejamento logístico e operacional de cargas.",
-      "s3_title": "3. Alterações nos Serviços",
-      "s3_text": "A 7 Seas Global reserva-se o direito de modificar, suspender ou descontinuar qualquer aspecto do site ou de seus serviços logísticos a qualquer momento, sem aviso prévio."
+      "title": "Términos y Condiciones (Bill of Lading)",
+      "clauses": [
+        {
+          "title": "1. DEFINICIONES",
+          "text": "\"Transportista\" significa la Empresa indicada en el anverso de este Conocimiento de Embarque como Transportista y en cuyo nombre se ha firmado. \"Comerciante\" incluye al remitente, el consignatario, el receptor de las Mercancías, el titular de este Conocimiento, y cualquier persona con derecho a la posesión... \"Contenedor\" incluye cualquier contenedor, remolque, tanque transportable, palé o artículo de transporte similar. \"Transporte\" significa la totalidad de las operaciones y servicios realizados por el Transportista respecto a las Mercancías."
+        },
+        {
+          "title": "2. TARIFA DEL TRANSPORTISTA",
+          "text": "Las disposiciones de la Tarifa aplicable del Transportista se incorporan al presente. Se pueden obtener copias de estas disposiciones a solicitud. En caso de inconsistencia entre este Conocimiento de Embarque y la Tarifa aplicable, prevalecerá este Conocimiento."
+        },
+        {
+          "title": "3. GARANTÍA",
+          "text": "El Comerciante garantiza que, al aceptar los términos de este documento, es o actúa como agente autorizado de la persona propietaria o con derecho a la posesión de las Mercancías."
+        },
+        {
+          "title": "4. NEGOCIABILIDAD Y TÍTULO DE LAS MERCANCÍAS",
+          "text": "1. Este Conocimiento de Embarque será intransferible a menos que se emita \"a la orden\", en cuyo caso será negociable y constituirá título de las Mercancías.\n2. Este Conocimiento será prueba prima facie de la aceptación de las Mercancías por el Transportista."
+        },
+        {
+          "title": "5. CIERTOS DERECHOS E INMUNIDADES",
+          "text": "1. El Transportista tendrá derecho a subcontratar total o parcialmente el Transporte bajo cualquier término.\n2. El Comerciante se compromete a no presentar reclamos contra ninguna persona o embarcación distinta del Transportista. El Comerciante defenderá e indemnizará al Transportista contra reclamaciones que superen su responsabilidad bajo este Conocimiento."
+        },
+        {
+          "title": "6. RESPONSABILIDAD DEL TRANSPORTISTA",
+          "text": "(1) CLÁUSULA PARAMOUNT: Sujeto a la cláusula 13, este Conocimiento estará sujeto a las Reglas de La Haya o cualquier legislación obligatoria aplicable (como COGSA o COGWA).\n(2) EMBARQUE PUERTO A PUERTO: La responsabilidad se limita a la parte del Transporte desde la carga en el buque hasta su descarga.\n(3) TRANSPORTE COMBINADO: El Transportista será responsable por la pérdida o daño de las Mercancías desde que las toma a su cargo hasta la entrega.\n(4) DISPOSICIONES GENERALES: El Transportista en ningún caso será responsable por pérdidas o daños directos o indirectos causados por retraso."
+        },
+        {
+          "title": "7. RESPONSABILIDAD DEL COMERCIANTE",
+          "text": "(1) La descripción y detalles de las Mercancías presentados en el anverso son correctos.\n(2) El Comerciante cumplirá con todas las leyes y regulaciones aduaneras, y pagará todos los impuestos, multas y gastos derivados.\n(3) El Comerciante garantiza que las Mercancías están empacadas adecuadamente para soportar los riesgos ordinarios del Transporte.\n(4) No se entregarán Mercancías peligrosas o inflamables al Transportista sin su consentimiento expreso por escrito."
+        },
+        {
+          "title": "8. CONTENEDORES",
+          "text": "1. Las Mercancías pueden ser llenadas por el Transportista en Contenedores y junto con otras Mercancías.\n2. Los términos de este Conocimiento rigen la responsabilidad del suministro de un Contenedor al Comerciante.\n3. Si un Contenedor es llenado por el Comerciante, el Transportista no será responsable por pérdidas o daños causados por la forma en que fue llenado o por la inadecuación de las Mercancías."
+        },
+        {
+          "title": "9. CARGA CON TEMPERATURA CONTROLADA",
+          "text": "El Comerciante se compromete a no entregar Mercancías que requieran control de temperatura sin aviso previo por escrito. En caso de Contenedores refrigerados llenados por el Comerciante, este garantiza el preenfriamiento adecuado. El Transportista no será responsable por pérdidas derivadas del incumplimiento de estos requisitos."
+        },
+        {
+          "title": "10. INSPECCIÓN DE MERCANCÍAS",
+          "text": "El Transportista o cualquier persona autorizada por él tendrá el derecho, pero no la obligación, de abrir cualquier Contenedor o paquete en cualquier momento para inspeccionar las Mercancías."
+        },
+        {
+          "title": "11. ASUNTOS QUE AFECTAN EL RENDIMIENTO",
+          "text": "Si el Transporte se ve afectado por algún riesgo, retraso o dificultad, el Transportista podrá: 1. Abandonar el Transporte de las Mercancías sin previo aviso... o 2. Continuar el Transporte. La responsabilidad del Transportista cesará tras la entrega o disposición de las Mercancías conforme a las órdenes del gobierno."
+        },
+        {
+          "title": "12. MÉTODOS Y RUTA DE TRANSPORTE",
+          "text": "El Transportista puede, en cualquier momento y sin previo aviso: usar cualquier medio de transporte; realizar transbordos; proceder a cualquier velocidad y por cualquier ruta; descargar en cualquier lugar y cumplir con cualquier orden gubernamental. Nada de esto constituirá una desviación del contrato."
+        },
+        {
+          "title": "13. CARGA EN CUBIERTA (Y GANADO)",
+          "text": "Las Mercancías pueden estibarse en cubierta o bajo cubierta sin notificación. Las Mercancías en cubierta se transportan sin responsabilidad del Transportista por pérdida o daño durante el viaje. El Comerciante indemnizará al Transportista por gastos derivados del transporte de ganado."
+        },
+        {
+          "title": "14. ENTREGA DE MERCANCÍAS",
+          "text": "Si el Comerciante no recibe las Mercancías en el momento y lugar acordados, el Transportista podrá retirar las Mercancías del Contenedor y almacenarlas a riesgo y gasto exclusivo del Comerciante, cesando su responsabilidad sobre las mismas."
+        },
+        {
+          "title": "15. COLISIÓN CON CULPA COMPARTIDA",
+          "text": "Si la embarcación colisiona con otra debido a negligencia de la otra embarcación/objeto, el Comerciante se compromete a defender e indemnizar al Transportista por cualquier reclamación que el Comerciante cobre a la otra embarcación y que sea recuperada contra el Transportista."
+        },
+        {
+          "title": "16. AVERÍA GRUESA",
+          "text": "1. El Transportista podrá declarar Avería Gruesa, ajustada según las Reglas de York/Amberes de 1974.\n2. El Comerciante defenderá e indemnizará al Transportista respecto a reclamaciones por Avería Gruesa y proporcionará la garantía requerida."
+        },
+        {
+          "title": "17. CARGOS",
+          "text": "1. Los Cargos se considerarán completamente devengados al recibirse las Mercancías y deberán pagarse sin devolución en ningún caso.\n2. Los Cargos se basan en los detalles proporcionados por el Comerciante. El Transportista puede volver a pesar y evaluar las Mercancías; de haber errores, el Comerciante pagará los Cargos correctos.\n3. Todos los Cargos deben pagarse sin deducción ni compensación."
+        },
+        {
+          "title": "18. DERECHO DE RETENCIÓN",
+          "text": "El Transportista tendrá derecho de retención sobre las Mercancías y sus documentos por todas las sumas adeudadas por el Comerciante. El Transportista tendrá derecho a vender las Mercancías por subasta pública sin previo aviso al Comerciante y sin responsabilidad hacia este."
+        },
+        {
+          "title": "19. VARIACIÓN DEL CONTRATO",
+          "text": "Ningún sirviente o agente del Transportista tendrá poder para renunciar o variar los términos del presente a menos que sea por escrito y ratificado por un director del Transportista."
+        },
+        {
+          "title": "20. INVALIDEZ PARCIAL",
+          "text": "Si alguna disposición de este Conocimiento de Embarque se considera inválida por un tribunal o agencia reguladora, tal invalidez afectará solo a esa disposición. La validez de las disposiciones restantes no se verá afectada."
+        }
+      ]
     }
   }
 }

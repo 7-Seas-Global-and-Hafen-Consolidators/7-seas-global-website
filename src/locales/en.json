@@ -54,7 +54,7 @@
     "parceiros": {
       "title": "Partners"
     },
-      "contato": {
+    "contato": {
       "title": "Contato",
       "label_nome": "Nome",
       "label_tel": "Telefone / E-mail",
@@ -86,37 +86,112 @@
       "phone_2": "phone 2",
       "copy": "© 2026 7 Seas Global. All rights reserved."
     },
-      "privacidade": {
+    "privacidade": {
       "title": "Privacy Policy",
       "intro": "Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.",
-      
+
       "s1_title": "1. Information Collection",
       "s1_text": "We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.",
-      
+
       "s2_title": "2. Data Retention and Security",
       "s2_text": "We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.",
-      
+
       "s3_title": "3. Information Sharing",
       "s3_text": "We don’t share any personally identifying information publicly or with third-parties, except when required to by law.",
-      
+
       "s4_title": "4. External Links",
       "s4_text": "Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.",
-      
+
       "s5_title": "5. Rights and Consent",
       "s5_text": "You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services. Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information.",
-      
+
       "s6_title": "6. Contact Us",
       "s6_text": "If you have any questions about how we handle user data and personal information, feel free to contact us through our official channels."
     },
-      "termos": {
-      "title": "Termos e Condições de Uso",
-      "intro": "Bem-vindo ao site da 7 Seas Global. Ao acessar e utilizar nossos serviços, você concorda em cumprir e estar vinculado aos seguintes termos de uso.",
-      "s1_title": "1. Aceitação dos Termos",
-      "s1_text": "Os serviços de cotação, rastreamento e informações de logística internacional prestados por este site estão sujeitos à aceitação integral destes termos. Se você não concorda com qualquer parte, não deverá utilizar nossos canais.",
-      "s2_title": "2. Precisão das Informações",
-      "s2_text": "O usuário é responsável pela veracidade e exatidão dos dados inseridos nos formulários de contato e cotação, ciente de que informações incorretas podem inviabilizar o planejamento logístico e operacional de cargas.",
-      "s3_title": "3. Alterações nos Serviços",
-      "s3_text": "A 7 Seas Global reserva-se o direito de modificar, suspender ou descontinuar qualquer aspecto do site ou de seus serviços logísticos a qualquer momento, sem aviso prévio."
+    "termos": {
+      "title": "Terms and Conditions of Use",
+      "clauses": [
+        {
+          "title": "1. DEFINITIONS",
+          "text": "\"Carrier\" means the Company stated on the front of this Bill of Lading as being the Carrier and on whose behalf this Bill of Lading has been signed. \"Merchant\" includes the shipper, the consignee, the receiver of the Goods, the holder of this Bill of Lading, any person owning or entitled to the possession of the Goods or thy Bell of lading on oparton hy of in resentend perest in the 'Goods includes the cargo supplied by the Mercant and includes any Containe not supplied by or on behall of the Carner. \"Container\" includes any container. trailer, transportable tank, lift van, flat, pallet r any similar article of transport used to consolidate goods. \"Carriage\" means the whole of the operations and services undertaken or per- formed by or on behalf of the Carrier in respect of the Goods."
+        },
+        {
+          "title": "2. CARRIER'S TARIFF",
+          "text": "The provisions of the Carrier's applicable Tarifi, if any, are incorporated herein Copies of such provisions are obtainable from the Carrier or his agents upon request or. where applicable. from a government body with whom the Tariff has been filed. In the case of inconsistency between this Bill of Lading and the applicable Tariff, this Bill of Lading shall prevail."
+        },
+        {
+          "title": "3. WARRANTY",
+          "text": "The Merchant warrants that in agreeing to the terms hereof he is or is the agent f and has the authority of the person owning or entitled to the possession of the Goods or any person who has a present or future interest in the Goods."
+        },
+        {
+          "title": "4. NEGOTIABILITY AND TITLE TO THE GOODS",
+          "text": "1. This Bill of Lading shall be non-negotiable unless made out \"to order\" in which event it shall be negotiable and shall constitute title to the Goods and the holder shall be entitled to receive or to transfer the Goods herein described.\n2. This Bill of Lading shall be prima facie evidence of the taking in charge by the Carner of the Goods as herein described. However, proof to the contrary shall not be admissible when this Bill of Lading has been negotiated or transferred for valuable consideration to a third party acting in good faith."
+        },
+        {
+          "title": "5. CERTAIN RIGHTS AND IMMUNITIES FOR THE CARRIER AND OTHER PERSONS",
+          "text": "1. The Carrier shall be entitled to sub-contract on any terms the whole or any part of the Carnage.\n2. The Merchant undertakes that no claim or allegation shall be made against any person or vessel whatsoever, other than the Carner, including, but not limited to the Carrier's servants or agents, any independent contractor and his servants or agents, and all others by whom the whole or any part of the Carnage, whether directly or indirectly. is procured, performed or undertaken, which imposes or attempis to impose upon any such person or vessel any liability whatsoever in connection with the Goods or the Carriage, and it any claim or allegation should nevertheless be made to defend, indemnity and hold harmless the Carrier against all consequences thereof... \n(3) The Mercant shall defend, indemnity and hold harmiess the Carrier against any claim or liability (and any expense arsing therefrom) arising: from the Carriage of Goods insofar as such claim or liability exceeds the Carner's liability under this Bill of Lad..."
+        },
+        {
+          "title": "6. CARRIER'S RESPONSIBILITY",
+          "text": "(1) CLAUSE PARAMOUNT: (A) Subject to clause 13 below, this Bill of Lading insolar as it relates to sea carriage by any vessel whether named herein or not shall have effect subject to he Hague Hules or any legislation making such Rules or the Hague-Visby Rule: compulsorily applicable (such as COGSA or COGWA) to this Bill of Lading anc the provisions of the Hague Rules or applicable legislation shall be deemed incorporated herein...\n(2) PORT TO PORT SHIPMENT: The responsibility of the Carrier is limited to that part of the Carriage from and during loading into the vessel up to and during discharge from the vessel...\n(3) COMBINED TRANSPORT: Save as is otherwise provided in this Bill of Lading, the Carrier shall be liable for loss of or damage to the Goods occurring from the time that the Goods are taken into his charge until the time of delivery... \n(4) GENERAL PROVISIONS: (A) Delay, Consequential Loss, Save as otherwise provided herein, the Carner shall in no circumstances be liable for direct, indirect of consequential loss or damage caused by delay..."
+        },
+        {
+          "title": "7. MERCHANT'S RESPONSIBILITY",
+          "text": "(1) The description and particulars of the Goods set out on the face hereot are particulars including, but not limited to. of weight, content, measure. quality, condition, marks, numbers and value are correct.\n(2) The Merchant shall comply with all applicable laws, regulations and require- ments of customs, port and other authonties...\n(3) The Merchant undertakes that the Goods are packed in a manner adequate to withstand the ordinary nsks of Carriage...\n(4) No Goods which are or may become dangerous, inflammable or damaging... shall be tendered to the Carrier for Carriage without the Carrier's express consent...\n(5) The Merchant shall be liable for the loss, damage, contamination, soling. jetention or demurrage... \n(6) The Merchant shall defend, indemnity and hold harmiess the Carrier against any loss, damage, claim, liability or expense whatsoever arising from any breach of the provisions of this clause 7..."
+        },
+        {
+          "title": "8. CONTAINERS",
+          "text": "1. Goods may be stuffed by the Carrier in or on Containers and Goods may be stuffed with other Goods.\n2. The terms of this Bill of Lading shall govern the responsibility of the Carrier in connection with or arising out of the supply of a Container to the Merchant...\n3. If a Container has been stuffed by or on behalf ot the Merchant, the Carrier shall not be liable for loss of or damage to the Goods caused by the manner in which the Container has been stuffed..."
+        },
+        {
+          "title": "9. TEMPERATURE CONTROLLED CARGO",
+          "text": "(1) The Merchant undertakes not to tender for transportation any Goods which require temperature control without previously giving written notice... of their nature and particular temperature range to be maintained...\n(2) The Carrier shall not be liable for any loss of or damage to the Goods arising tam defects, a agent, breakdown, stoppage old container. provide d hat the machinery, plant insulation or any apparatus the Container, provided that the Carrier shall before or at the beginning of the Carriage exercise due diligence to maintain the refrigerated Container in an efficient state."
+        },
+        {
+          "title": "10. INSPECTION OF GOODS",
+          "text": "The Carrier or any person authorized by the Carrier shall be entitled, but under no obligation, to open any Container or package at any time and to inspect the Goods."
+        },
+        {
+          "title": "11. MATTERS AFFECTING PERFORMANCE",
+          "text": "(1) If at any time the Carriage is or is likely to be affected by any hindrance, risk. delay, difficulty or disadvantage of any kind... the Carrier may: 1. without notice to the Merchant abandon the Carriage of the Goods... 2. without prejudice to the Carrier's right subsequently to abandon the Carriage under (A) above, continue the Carriage...\n(2) The liability of the Carrier in respect of the Goods shall cease on the delivery or other disposition of the Goods in accordance with the orders or recommendations given by any government or authority..."
+        },
+        {
+          "title": "12. METHODS AND ROUTE OF TRANSPORTATION",
+          "text": "(1) The Carner may at any time and without notice to the Merchant any vessel whether named on the front hereof or not: transfer the Ise any means of transport or storage whatsoever; load or carrying Goods on conveyance to another including transshipment...\n(2) The liberties set out in 1) above may be invoked by the Carrier for any purposes whether or not connected with the Anything done in accordance with (1) above or any delay arising therefrom shall be deemed to be within the contractual Carnage and shall not be a deviation of what-."
+        },
+        {
+          "title": "13. DECK CARGO (AND LIVESTOCK)",
+          "text": "1) Goods of any description whether containerized or not may be stowed on oi under deck without notice to the Merchant and such stowage shall not be a deviation of whatsoever nature or degree...\n(2) Goods (not being Goods stuffed in or on Containers other than open flats or pallets) which are stated on the front of this Bill of Lading to be carried on deck and which are so carried (and livestock, whether or not carried on deck) are carried without responsibility on the part of the Carrier for loss or damage of whatsoever nature arising during carriage by sea or inland waterway..."
+        },
+        {
+          "title": "14. DELIVERY OF GOODS",
+          "text": "If delivery of the Goods or any part thereof is not taken by the Merchant at the ime and place when and where the Carrier is entitled to call upon in Merchant to take delivery thereof, the Carrier shall be entitled without notice to remove from a Container the Goods or that part thereof if stuffed in or on a Container and to store the Goods or that part thereol ashore, afloat, in the open or under cover at the sole risk and expense of the Merchant. Such storage shall constitute due delivery hereon-der. and thereupon the liability of the Carrier on respect of the Goods or that part thereof shall cease."
+        },
+        {
+          "title": "15. BOTH-TO BLAME COLLISION",
+          "text": "If the vessel on which the Goods are carried (the carrying vessel) comes into collision with any other vessel or object (the non-carrying vessel or object) a result of the negligence of the non-carrying vessel or object or the owner of, charterer of or person responsible for the non-carrying vessel or object, the Merchant undertakes to defend, indemnity and hold harmless the Carrier against all claims by or liability to..."
+        },
+        {
+          "title": "16. GENERAL AVERAGE",
+          "text": "1. The Carrier may declare General Average which shall be adjustable according to the York/Antwerp Rules of 1974 at any place at the option of the Carrier and the Amended Jason Clause as approved by BIMCO is to be considered as incorporated herein...\n2. Notwithstanding (1) above, the Merchant shall defend, indemnity and hold harmless the Carrier in respect of any claim (and any expense arising therefrom) of General Average nature...\n3. The Carrer shall be under no obligation to take any collect security for General Average contributions due to the Merchant."
+        },
+        {
+          "title": "17. CHARGES",
+          "text": "1. Charges shall be deemed fully earned on receipt of the Goods by the Carrier and shall be paid and non-returnable in any event.\n2. The Charges have been calculated on the basis of particulars furnished by or on behalf of the Merchant. The Carrier shall be entitled 10 production of the commercial invoice for the Goods or true copy thereof and to inspect, reweigh, remex-sure and revalue the Goods...\n3. All Charges shall be paid without any set-off, counter-claim, deduction or stay."
+        },
+        {
+          "title": "18. LIEN",
+          "text": "The Carrier shall have a lien on the Goods and any documents relating thereto for all sums whatsoever due at any time to the Carrier from the Merchant and for General Average contributions to whomsoever due and for the costs of recovering the same and the Carrier shall have the right to sell the Goods and documents by public action or private treaty, without notice to the Merchant and at the Merchant's expense and without any liability towards the Merchant."
+        },
+        {
+          "title": "19. VARIATION OF THE CONTRACT",
+          "text": "No servant or agent of the Carrier shall have power to waive or vary any of the terms hereof unless such waiver or variation is tin writing and is specifically authori-sed or ratified in writing by a director or officer of the Carrier who has the actual authority of the Carrier so to waive or vary."
+        },
+        {
+          "title": "20. PARTIAL INVALIDITY",
+          "text": "If any provision in this Bill of Lading is held to be invalid or unenforceable by any court or regulatory or self-regulatory agency or body, such invalidity or unenforceability shall attach only to such provision. The validity of the remaining provisions shall not be affected thereby and this Bill of Lading contract shall be carried out as if such invalid or unenforceable provision were not contained herein."
+        }
+      ]
     }
   }
 }

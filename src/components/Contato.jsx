@@ -137,18 +137,17 @@ export default function Contato() {
         </form>
       </div>
 
-      <Modal
-        isOpen={isTermsOpen}
-        onClose={() => setIsTermsOpen(false)}
+      <Modal 
+        isOpen={isTermsOpen} 
+        onClose={() => setIsTermsOpen(false)} 
         title={t("termos.title")}
       >
-        <p>{t("termos.intro")}</p>
-        <h4>{t("termos.s1_title")}</h4>
-        <p>{t("termos.s1_text")}</p>
-        <h4>{t("termos.s2_title")}</h4>
-        <p>{t("termos.s2_text")}</p>
-        <h4>{t("termos.s3_title")}</h4>
-        <p>{t("termos.s3_text")}</p>
+        {t("termos.clauses", { returnObjects: true }).map((clause, index) => (
+          <div key={index}>
+            <h4>{clause.title}</h4>
+            <p style={{ whiteSpace: 'pre-wrap' }}>{clause.text}</p>
+          </div>
+        ))}
       </Modal>
     </section>
   );

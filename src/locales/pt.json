@@ -103,14 +103,89 @@
       "s6_text": "Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contato conosco pelos canais oficiais."
     },
       "termos": {
-      "title": "Termos e Condições de Uso",
-      "intro": "Bem-vindo ao site da 7 Seas Global. Ao acessar e utilizar nossos serviços, você concorda em cumprir e estar vinculado aos seguintes termos de uso.",
-      "s1_title": "1. Aceitação dos Termos",
-      "s1_text": "Os serviços de cotação, rastreamento e informações de logística internacional prestados por este site estão sujeitos à aceitação integral destes termos. Se você não concorda com qualquer parte, não deverá utilizar nossos canais.",
-      "s2_title": "2. Precisão das Informações",
-      "s2_text": "O usuário é responsável pela veracidade e exatidão dos dados inseridos nos formulários de contato e cotação, ciente de que informações incorretas podem inviabilizar o planejamento logístico e operacional de cargas.",
-      "s3_title": "3. Alterações nos Serviços",
-      "s3_text": "A 7 Seas Global reserva-se o direito de modificar, suspender ou descontinuar qualquer aspecto do site ou de seus serviços logísticos a qualquer momento, sem aviso prévio."
+      "title": "Termos e Condições (Bill of Lading)",
+      "clauses": [
+        {
+          "title": "1. DEFINIÇÕES",
+          "text": "\"Transportador\" significa a Empresa declarada na frente deste Conhecimento de Embarque como sendo o Transportador e em nome do qual este Conhecimento de Embarque foi assinado. \"Comerciante\" inclui o remetente, o consignatário, o recebedor das Mercadorias, o detentor deste Conhecimento de Embarque, qualquer pessoa proprietária ou com direito à posse das Mercadorias... \"Contêiner\" inclui qualquer contêiner, reboque, tanque transportável, plataforma, palete ou qualquer artigo de transporte semelhante usado para consolidar mercadorias. \"Transporte\" significa o conjunto de operações e serviços realizados pelo Transportador ou em seu nome em relação às Mercadorias."
+        },
+        {
+          "title": "2. TARIFA DO TRANSPORTADOR",
+          "text": "As disposições da Tarifa aplicável do Transportador, se houver, são incorporadas aqui. Cópias de tais disposições podem ser obtidas do Transportador ou de seus agentes mediante solicitação. Em caso de inconsistência entre este Conhecimento de Embarque e a Tarifa aplicável, este Conhecimento de Embarque prevalecerá."
+        },
+        {
+          "title": "3. GARANTIA",
+          "text": "O Comerciante garante que, ao concordar com os termos deste documento, ele é ou é agente e tem autoridade da pessoa proprietária ou com direito à posse das Mercadorias, ou de qualquer pessoa que tenha interesse presente ou futuro nas Mercadorias."
+        },
+        {
+          "title": "4. NEGOCIABILIDADE E TÍTULO DAS MERCADORIAS",
+          "text": "1. Este Conhecimento de Embarque será não-negociável, a menos que seja emitido \"à ordem\", caso em que será negociável e constituirá título das Mercadorias, tendo o detentor o direito de receber ou transferir as Mercadorias aqui descritas.\n2. Este Conhecimento de Embarque será evidência prima facie da aceitação das Mercadorias pelo Transportador conforme aqui descrito. No entanto, prova em contrário não será admissível quando este Conhecimento de Embarque tiver sido negociado ou transferido de boa fé a terceiros."
+        },
+        {
+          "title": "5. CERTOS DIREITOS E IMUNIDADES DO TRANSPORTADOR E OUTRAS PESSOAS",
+          "text": "1. O Transportador terá o direito de subcontratar em quaisquer termos o todo ou qualquer parte do Transporte.\n2. O Comerciante compromete-se a não fazer qualquer reclamação contra qualquer pessoa ou embarcação que não seja o Transportador, incluindo, mas não se limitando aos empregados ou agentes do Transportador, e todos os demais por quem o Transporte é realizado. O Comerciante indenizará e isentará o Transportador de qualquer reclamação que exceda a responsabilidade do Transportador sob este Conhecimento."
+        },
+        {
+          "title": "6. RESPONSABILIDADE DO TRANSPORTADOR",
+          "text": "(1) CLÁUSULA PARAMOUNT: Sujeito à cláusula 13, este Conhecimento de Embarque, no que se refere ao transporte marítimo, terá efeito sujeito às Regras de Haia ou qualquer legislação que torne tais Regras aplicáveis compulsoriamente (como COGSA ou COGWA).\n(2) EMBARQUE DE PORTO A PORTO: A responsabilidade do Transportador limita-se àquela parte do Transporte desde o carregamento no navio até a descarga.\n(3) TRANSPORTE COMBINADO: Salvo disposição em contrário, o Transportador será responsável por perdas ou danos que ocorram desde o momento em que as Mercadorias são tomadas sob sua responsabilidade até o momento da entrega...\n(4) DISPOSIÇÕES GERAIS: O Transportador não será, em nenhuma circunstância, responsável por perdas ou danos diretos, indiretos ou consequentes causados por atraso."
+        },
+        {
+          "title": "7. RESPONSABILIDADE DO COMERCIANTE",
+          "text": "(1) A descrição e detalhes das Mercadorias definidos na frente deste documento, incluindo peso, medida, qualidade, condição, marcas, números e valores, estão corretos.\n(2) O Comerciante deve cumprir todas as leis, regulamentos e requisitos alfandegários aplicáveis, e arcará com todos os impostos e multas devidos.\n(3) O Comerciante garante que as Mercadorias estão embaladas de forma adequada para suportar os riscos do Transporte.\n(4) Nenhuma Mercadoria de natureza perigosa, inflamável ou danosa será entregue ao Transportador sem o seu consentimento expresso por escrito."
+        },
+        {
+          "title": "8. CONTÊINERES",
+          "text": "1. Mercadorias podem ser estufadas pelo Transportador em ou sobre Contêineres, podendo ser estufadas com outras Mercadorias.\n2. Os termos deste Conhecimento governarão a responsabilidade em relação ao fornecimento de um Contêiner ao Comerciante.\n3. Se um Contêiner for estufado pelo Comerciante, o Transportador não será responsável por perda ou dano causado pela forma como o Contêiner foi estufado ou por inadequação das Mercadorias para transporte em Contêineres."
+        },
+        {
+          "title": "9. CARGA COM TEMPERATURA CONTROLADA",
+          "text": "O Comerciante compromete-se a não fornecer para transporte quaisquer Mercadorias que exijam controle de temperatura sem notificação prévia por escrito. No caso de um Contêiner de temperatura controlada estufado pelo Comerciante, ele garante que o Contêiner foi adequadamente pré-resfriado. O Transportador não será responsável por perdas ou danos advindos do não cumprimento destes requisitos."
+        },
+        {
+          "title": "10. INSPEÇÃO DE MERCADORIAS",
+          "text": "O Transportador ou qualquer pessoa por ele autorizada terá o direito, mas não a obrigação, de abrir qualquer Contêiner ou embalagem a qualquer momento e inspecionar as Mercadorias."
+        },
+        {
+          "title": "11. QUESTÕES QUE AFETAM O DESEMPENHO",
+          "text": "Se a qualquer momento o Transporte for ou puder ser afetado por qualquer impedimento, risco, atraso, dificuldade ou desvantagem de qualquer tipo, o Transportador poderá: 1. Abandonar o Transporte das Mercadorias sem aviso prévio... ou 2. Continuar o Transporte. A responsabilidade do Transportador cessará na entrega ou outra disposição das Mercadorias de acordo com as ordens dadas por autoridades governamentais."
+        },
+        {
+          "title": "12. MÉTODOS E ROTA DE TRANSPORTE",
+          "text": "O Transportador pode a qualquer momento, sem aviso ao Comerciante: usar qualquer meio de transporte ou armazenamento; transbordar as Mercadorias; seguir a qualquer velocidade e por qualquer rota a seu critério; descarregar em qualquer local; e agir em conformidade com ordens governamentais. Tudo o que for feito em conformidade não será considerado um desvio contratual."
+        },
+        {
+          "title": "13. CARGA NO CONVÉS (E ANIMAIS VIVOS)",
+          "text": "Mercadorias podem ser estivadas no convés ou sob o convés sem notificação ao Comerciante. Mercadorias transportadas no convés são transportadas sem responsabilidade por parte do Transportador por perdas ou danos de qualquer natureza ocorridos durante o transporte. O Comerciante isentará o Transportador de todos os custos extras decorrentes do transporte de animais vivos."
+        },
+        {
+          "title": "14. ENTREGA DAS MERCADORIAS",
+          "text": "Se a entrega das Mercadorias não for recebida pelo Comerciante no momento e local em que o Transportador estiver autorizado a solicitá-la, o Transportador terá o direito, sem aviso, de remover as Mercadorias do Contêiner e armazená-las às custas e riscos exclusivos do Comerciante, cessando a responsabilidade do Transportador."
+        },
+        {
+          "title": "15. COLISÃO COM CULPA DE AMBAS AS PARTES",
+          "text": "Se o navio no qual as Mercadorias são transportadas colidir com outro navio ou objeto como resultado da negligência do outro navio/objeto, o Comerciante compromete-se a defender e isentar o Transportador contra todas as reclamações pagas ao Comerciante por parte do navio/objeto não transportador que sejam repassadas contra o Transportador."
+        },
+        {
+          "title": "16. AVARIA GROSSA",
+          "text": "1. O Transportador pode declarar Avaria Grossa, a ser ajustada conforme as Regras de York/Antuérpia de 1974 em qualquer local a seu critério.\n2. O Comerciante deverá indenizar e isentar o Transportador em relação a qualquer reclamação de Avaria Grossa e fornecerá a garantia exigida pelo Transportador."
+        },
+        {
+          "title": "17. TAXAS",
+          "text": "1. As Taxas serão consideradas totalmente adquiridas no recebimento das Mercadorias pelo Transportador, devendo ser pagas e não retornáveis em qualquer hipótese.\n2. As Taxas foram calculadas com base nos detalhes fornecidos pelo Comerciante. O Transportador poderá reavaliar as Mercadorias, e caso os dados estejam incorretos, o Comerciante pagará as Taxas corretas.\n3. Todas as Taxas deverão ser pagas sem dedução ou compensação."
+        },
+        {
+          "title": "18. RETENÇÃO (LIEN)",
+          "text": "O Transportador terá o direito de retenção sobre as Mercadorias e quaisquer documentos relacionados a elas para todas as quantias devidas a qualquer momento ao Transportador pelo Comerciante, incluindo contribuições de Avaria Grossa. O Transportador terá o direito de vender as Mercadorias por leilão público sem aviso prévio ao Comerciante e sem qualquer responsabilidade para com o mesmo."
+        },
+        {
+          "title": "19. VARIAÇÃO DO CONTRATO",
+          "text": "Nenhum empregado ou agente do Transportador terá poder para renunciar ou variar qualquer um dos termos aqui contidos, a menos que essa renúncia ou variação seja por escrito e especificamente autorizada por um diretor do Transportador."
+        },
+        {
+          "title": "20. INVALIDADE PARCIAL",
+          "text": "Se qualquer disposição neste Conhecimento de Embarque for considerada inválida ou inexequível por qualquer tribunal ou agência regulatória, tal invalidade será aplicável apenas a essa disposição específica, e o restante do contrato será cumprido como se tal disposição não estivesse aqui contida."
+        }
+      ]
     }
   }
 }
