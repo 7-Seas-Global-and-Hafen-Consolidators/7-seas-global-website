@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className="header" id="header">
       <div className="header__inner">
-        <a className="brand" href="#hero" aria-label="7 Seas Global — início">
+        <a className="brand" href="/#hero" aria-label="7 Seas Global — início">
           <img className="brand__mark" src="/assets/brand/compass.png" alt="" />
           <span className="brand__text">
             <span className="brand__name">7 SEAS</span>
