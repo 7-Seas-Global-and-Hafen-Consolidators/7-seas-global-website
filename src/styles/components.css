@@ -183,7 +183,7 @@
 }
 
 .btn--block {
-  width: 40%; 
+  width: 100%;
   padding: 22px; 
   border-radius: var(--radius-sm); 
   border: none;
@@ -192,6 +192,7 @@
   font-size: 20px; 
   font-weight: 700; 
   box-shadow: var(--shadow-gold);
+  transition: transform var(--dur-fast) var(--ease), filter var(--dur-fast) var(--ease);
 }
 
 .btn--block:hover { 
@@ -423,17 +424,19 @@
 .form { 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: var(--sp-8); 
+  margin: var(--sp-8) auto 0; 
+  width: 100%;
+  max-width: 680px;
 }
 
 .field { 
+  width: 100%;
   margin-bottom: var(--sp-6); 
 }
 
 .field__label { 
   display: block; 
+  text-align: left;
   font-family: var(--font-display); 
   color: var(--c-gold); 
   text-transform: uppercase; 
@@ -443,6 +446,7 @@
 }
 
 .field__input {
+  width: 100%;
   height: 100%;
   padding: 20px 24px; 
   border-radius: var(--radius-sm); 
@@ -737,13 +741,12 @@
   text-underline-offset: 4px;
 }
 
-/* --- Checkbox de Consentimento --- */
 .field--checkbox {
   display: flex;
   align-items: flex-start;
   gap: var(--sp-2);
   width: 100%;
-  max-width: 600px; /* Alinha com a largura ideal de inputs */
+  max-width: 600px;
   margin-bottom: var(--sp-5);
 }
 
@@ -751,11 +754,12 @@
   accent-color: var(--c-gold);
   width: 18px;
   height: 18px;
-  margin-top: 4px;
+  flex-shrink: 0;
   cursor: pointer;
 }
 
 .field__label-checkbox {
+  text-align: left;
   font-family: var(--font-body);
   font-size: var(--fs-body);
   color: var(--c-text-body);
