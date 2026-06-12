@@ -81,6 +81,28 @@
       "phone_1": "phone 1",
       "phone_2": "phone 2",
       "copy": "© 2026 7 Seas Global. All rights reserved."
+    },
+      "privacidade": {
+      "title": "Privacy Policy",
+      "intro": "Your privacy is important to us. It is our policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.",
+      
+      "s1_title": "1. Information Collection",
+      "s1_text": "We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.",
+      
+      "s2_title": "2. Data Retention and Security",
+      "s2_text": "We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.",
+      
+      "s3_title": "3. Information Sharing",
+      "s3_text": "We don’t share any personally identifying information publicly or with third-parties, except when required to by law.",
+      
+      "s4_title": "4. External Links",
+      "s4_text": "Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.",
+      
+      "s5_title": "5. Rights and Consent",
+      "s5_text": "You are free to refuse our request for your personal information, with the understanding that we may be unable to provide you with some of your desired services. Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information.",
+      
+      "s6_title": "6. Contact Us",
+      "s6_text": "If you have any questions about how we handle user data and personal information, feel free to contact us through our official channels."
     }
   }
 }

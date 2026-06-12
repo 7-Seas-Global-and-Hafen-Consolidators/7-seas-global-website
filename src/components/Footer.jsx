@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom"; // Importando o Link
 
 export default function Footer() {
-  
   const { t } = useTranslation();
 
   return (
@@ -20,11 +20,12 @@ export default function Footer() {
           <div className="footer__col">
             <h4 className="footer__head">{t("footer.nav_head")}</h4>
             <ul>
-              <li><a href="#sobre">{t("footer.nav_1")}</a></li>
-              <li><a href="#servicos">{t("footer.nav_2")}</a></li>
-              <li><a href="#porque">{t("footer.nav_3")}</a></li>
-              <li><a href="#parceiros">{t("footer.nav_4")}</a></li>
-              <li><a href="#contato">{t("footer.nav_5")}</a></li>
+              {/* Adicionada a barra '/' antes do hash para funcionar a partir de outras rotas */}
+              <li><a href="/#sobre">{t("footer.nav_1")}</a></li>
+              <li><a href="/#servicos">{t("footer.nav_2")}</a></li>
+              <li><a href="/#porque">{t("footer.nav_3")}</a></li>
+              <li><a href="/#parceiros">{t("footer.nav_4")}</a></li>
+              <li><a href="/#contato">{t("footer.nav_5")}</a></li>
             </ul>
           </div>
           <div className="footer__col">
@@ -54,7 +55,25 @@ export default function Footer() {
         </div>
 
         <hr className="footer__rule" />
-        <p className="footer__copy">{t("footer.copy")}</p>
+        
+        {/* Link da Política de Privacidade posicionado junto aos direitos autorais */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
+          <Link 
+            to="/privacidade" 
+            style={{ 
+              color: 'var(--c-text-dim)', 
+              fontSize: 'var(--fs-small)', 
+              textTransform: 'uppercase', 
+              letterSpacing: '.08em',
+              textDecoration: 'underline',
+              textUnderlineOffset: '4px'
+            }}
+          >
+            {t("footer.privacy", "Política de Privacidade")}
+          </Link>
+          <p className="footer__copy" style={{ marginTop: '0' }}>{t("footer.copy")}</p>
+        </div>
+
       </div>
     </footer>
   );
